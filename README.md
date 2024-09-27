@@ -87,4 +87,10 @@ The processed data is available in Snowflake in structured tables, which are rea
    - Add Snowflake credentials to S3 IAM policies for secure data access.
 
 3. **Snowflake Setup**:
-   - Set up a warehouse, database, sc
+   - Set up a warehouse, database, schema, and stage in Snowflake.
+
+4. **Ingest Data**:
+   - Load data from the S3 bucket into Snowflake staging tables.
+
+5. **Run Data Processing DAGs**:
+   - Execute the processing tasks that transform raw data into structured formats.
